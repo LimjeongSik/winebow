@@ -4,12 +4,766 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/slide.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/main_auction.css">
     <title>WINEBOW</title>
 </head>
 <body>
-    
+    <div class="wrap">
+        <div class="header_wrap">
+            <div class="header container-fluid flex-direction">
+              <div class="header_top">
+                <div class="flex container">
+                  <div class="flex leftmenu">
+                    <div class="menu_btn"><img src="images/btns/btn_menu.png" alt="메뉴"></div>
+                    <div class="logo"><a href="index.html"><img src="images/icons/ic_logo.png" alt="WINEBOW"></a></div>
+                    <div class="search_box flex">
+                      <input type="text" placeholder="영문 와인 명을 입력 해주세요.">
+                      <img src="images/icons/ic_search.png" alt="검색">
+                    </div>
+                  </div>
+                  <div class="mobile_logo logo"><a href="index.html"><img src="images/icons/ic_logo.png" alt="WINEBOW"></a></div>
+                  <div class="option flex">
+                    <div class="userin flex"><a href="login.html">SIGNUP/LOGIN</a></div>
+                    <div class="flex">
+                      <div class="user flex"><a href="mypage.html" class="flex"><img src="images/icons/ic_user.png" alt="유저"></a></div>
+                      <div class="mobile_search flex"><a href="#" class="flex"><img src="images/icons/ic_search.png" alt="검색"></a></div>
+                      <div class="basket flex"><a href="basket.html" class="flex"><img src="images/icons/ic_basket.png" alt="장바구니"></a><div class="basketcount flex"><span>3</span></div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="header_menu">
+                <div class="container">
+                  <nav>
+                    <ul class="flex">
+                      <li>
+                        <div class="menu flex">
+                          <span>365 DAY’s WINE</span>
+                        </div>
+                        <div class="sub_menu fake">
+                          <div class="sub_menu_box">
+                            <div class="sub_menu_title"><span>365 DAY’s WINE</span></div>
+                            <ul class="flex-direction">
+                              <li><a href="#">I am the best Wine</a></li>
+                              <li><a href="#">Monthly 10+1</a></li>
+                              <li><a href="#">Wine of the Day</a></li>
+                              <li><a href="#">Winebow Collection</a></li>
+                              <li><a href="#">Wine Tasting Set</a></li>
+                              <li><a href="#">Special Item</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="menu flex">
+                          <span>WINE</span>
+                        </div>
+                        <div class="sub_menu fake">
+                          <div class="sub_menu_box">
+                            <div class="sub_menu_title"><span>WINE</span></div>
+                            <ul class="flex-direction">
+                              <li><a href="#">Red</a></li>
+                              <li><a href="#">White</a></li>
+                              <li><a href="#">Rose</a></li>
+                              <li><a href="#">Orange</a></li>
+                              <li><a href="#">Natural</a></li>
+                              <li><a href="#">Sparkling</a></li>
+                              <li><a href="#">Fortified</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="menu flex">
+                          <span>REGION</span>
+                        </div>
+                        <div class="sub_menu fake">
+                          <div class="sub_menu_box">
+                            <div class="sub_menu_title"><span>REGION</span></div>
+                            <div class="flex subcate">
+                              <ul class="flex-direction">
+                                <li class="bor"><a href="#">France</a></li>
+                                <li><a href="#">Bordeaux</a></li>
+                                <li><a href="#">Bourgogne</a></li>
+                                <li><a href="#">Rhone</a></li>
+                                <li><a href="#">Champagne</a></li>
+                              </ul>
+                              <ul class="flex-direction">
+                                <li class="bor"><a href="#">Italy</a></li>
+                                <li><a href="#">Toscana</a></li>
+                                <li><a href="#">Piemonte</a></li>
+                              </ul>
+                              <ul class="flex-direction">
+                                <li class="bor"><a href="#">Spain</a></li>
+                                <li class="bor"><a href="#">Portugal</a></li>
+                                <li class="bor"><a href="#">Germany</a></li>
+                                <li class="bor"><a href="#">USA</a></li>
+                                <li><a href="#">Napa Valley</a></li>
+                              </ul>
+                              <ul class="flex-direction">
+                                <li class="bor"><a href="#">Chile</a></li>
+                                <li class="bor"><a href="#">Argentina</a></li>
+                                <li class="bor"><a href="#">New Zealand</a></li>
+                                <li class="bor"><a href="#">South Africa</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="menu flex">
+                          <span>GRAPE</span>
+                        </div>
+                        <div class="sub_menu fake">
+                          <div class="sub_menu_box">
+                            <div class="sub_menu_title"><span>GRAPE</span></div>
+                            <div class="flex subcate">
+                              <ul class="flex-direction">
+                                <li class="bor"><a href="#">Red</a></li>
+                                <li><a href="#">Cabernet Sauvignon</a></li>
+                                <li><a href="#">Merlot</a></li>
+                                <li><a href="#">Pinot Noir</a></li>
+                                <li><a href="#">Syrah/Shiraz</a></li>
+                                <li><a href="#">Grenache</a></li>
+                                <li><a href="#">Sangiovese</a></li>
+                                <li><a href="#">Nebbiolo</a></li>
+                                <li><a href="#">Tempranillo</a></li>
+                                <li><a href="#">Malbec</a></li>
+                                <li><a href="#">Primitivo/Zinfandel</a></li>
+                              </ul>
+                              <ul class="flex-direction">
+                                <li class="bor"><a href="#">White</a></li>
+                                <li><a href="#">Chardonnay</a></li>
+                                <li><a href="#">Sauvignon Blanc</a></li>
+                                <li><a href="#">Riesling</a></li>
+                                <li><a href="#">Muscat/Moscato</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="menu flex">
+                          <span>PRICE</span>
+                        </div>
+                        <div class="sub_menu fake">
+                          <div class="sub_menu_box">
+                            <div class="sub_menu_title"><span>PRICE</span></div>
+                            <ul class="flex-direction">
+                              <li><a href="#">Under 10,000원</a></li>
+                              <li><a href="#">10,000만원 ~ 30,000원</a></li>
+                              <li><a href="#">30,0001원 ~ 50,000원</a></li>
+                              <li><a href="#">50,0001원 ~ 70,000원</a></li>
+                              <li><a href="#">70,001원 ~ 100,000원</a></li>
+                              <li><a href="#">100,001원 ~ 150,000원</a></li>
+                              <li><a href="#">150,001원 ~ 200,000원</a></li>
+                              <li><a href="#">200,001원 ~ 300,000원</a></li>
+                              <li><a href="#">300,001원 ~ 500,000원</a></li>
+                              <li><a href="#">Over 500,000원</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="menu flex">
+                          <span>NON-WINE</span>
+                        </div>
+                        <div class="sub_menu fake">
+                          <div class="sub_menu_box">
+                            <div class="sub_menu_title"><span>NON-WINE</span></div>
+                            <ul class="flex-direction">
+                              <li><a href="#">Sake</a></li>
+                              <li><a href="#">Whiskey</a></li>
+                              <li><a href="#">Brandy</a></li>
+                              <li><a href="#">Rum</a></li>
+                              <li><a href="#">Gin</a></li>
+                              <li><a href="#">Vodka</a></li>
+                              <li><a href="#">Beer</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="menu flex">
+                          <span>WINE ACCESSORY</span>
+                        </div>
+                        <div class="sub_menu fake">
+                          <div class="sub_menu_box">
+                            <div class="sub_menu_title"><span>WINE ACCESSORY</span></div>
+                            <ul class="flex-direction">
+                              <li><a href="#">Wine Box & Bag</a></li>
+                              <li><a href="#">Wine Screw</a></li>
+                              <li><a href="#">Wine Glass</a></li>
+                              <li><a href="#">Others</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="menu flex">
+                          <span class="flex"><a href="winetasting.html">THE WINEBOW</a></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="mobile_toggle_menu">
+              <div class="toggle_menu">
+                <div class="flex-direction menu_list">
+                  <div class="flex btn_menu_close">
+                    <img src="images/btns/btn_menu_close.png" alt="메뉴닫기">
+                  </div>
+                  <div class="usercheck flex-direction">
+                    <div class="main_title">
+                      <img src="images/icons/toggle_menu_logo.png" alt="WINEBOW">
+                    </div>
+                    <div class="onlogin">
+                      <span><span>이희원</span>님, 반갑습니다.</span>
+                    </div>
+                    <div class="nologin">
+                      <a href="login.html">SIGNUP/LOGIN</a>
+                    </div>
+                  </div>
+                  <ul class="menu flex-direction">
+                    <li>
+                      <div class="flex-direction">
+                        <div class="flex">
+                          <a href="#">365 DAY’s WINE</a>
+                          <img src="images/btns/btn_menu_more.png" alt="메뉴 더보기">
+                        </div>
+                        <div class="dropsubmenu">
+                          <ul class="flex-direction">
+                            <li><a href="#">I am the best Wine</a></li>
+                            <li><a href="#">Monthly 10+1</a></li>
+                            <li><a href="#">Wine of the Day</a></li>
+                            <li><a href="#">Winebow Collection</a></li>
+                            <li><a href="#">Wine Tasting Set</a></li>
+                            <li><a href="#">Special Item</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="flex-direction">
+                        <div class="flex">
+                          <a href="#">WINES</a>
+                          <img src="images/btns/btn_menu_more.png" alt="메뉴 더보기">
+                        </div>
+                        <div class="dropsubmenu">
+                          <ul class="flex-direction">
+                            <li><a href="#">Red</a></li>
+                            <li><a href="#">White</a></li>
+                            <li><a href="#">Rose</a></li>
+                            <li><a href="#">Orange</a></li>
+                            <li><a href="#">Natural</a></li>
+                            <li><a href="#">Sparkling</a></li>
+                            <li><a href="#">Fortified</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="flex-direction">
+                        <div class="flex">
+                          <a href="#">REGION</a>
+                          <img src="images/btns/btn_menu_more.png" alt="메뉴 더보기">
+                        </div>
+                        <div class="dropsubmenu">
+                          <ul class="flex-direction">
+                            <li class="bor"><a href="#">France</a></li>
+                            <li><a href="#">Bordeaux</a></li>
+                            <li><a href="#">Bourgogne</a></li>
+                            <li><a href="#">Rhone</a></li>
+                            <li><a href="#">Champagne</a></li>
+                          </ul>
+                          <ul class="flex-direction">
+                            <li class="bor"><a href="#">Italy</a></li>
+                            <li><a href="#">Toscana</a></li>
+                            <li><a href="#">Piemonte</a></li>
+                          </ul>
+                          <ul class="flex-direction">
+                            <li class="bor"><a href="#">Spain</a></li>
+                            <li class="bor"><a href="#">Portugal</a></li>
+                            <li class="bor"><a href="#">Germany</a></li>
+                            <li class="bor"><a href="#">USA</a></li>
+                            <li><a href="#">Napa Valley</a></li>
+                          </ul>
+                          <ul class="flex-direction">
+                            <li class="bor"><a href="#">Chile</a></li>
+                            <li class="bor"><a href="#">Argentina</a></li>
+                            <li class="bor"><a href="#">New Zealand</a></li>
+                            <li class="bor"><a href="#">South Africa</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="flex-direction">
+                        <div class="flex">
+                          <a href="#">GRAPES</a>
+                          <img src="images/btns/btn_menu_more.png" alt="메뉴 더보기">
+                        </div>
+                        <div class="dropsubmenu">
+                          <ul class="flex-direction">
+                            <li class="bor"><a href="#">Red</a></li>
+                            <li><a href="#">Cabernet Sauvignon</a></li>
+                            <li><a href="#">Merlot</a></li>
+                            <li><a href="#">Pinot Noir</a></li>
+                            <li><a href="#">Syrah/Shiraz</a></li>
+                            <li><a href="#">Grenache</a></li>
+                            <li><a href="#">Sangiovese</a></li>
+                            <li><a href="#">Nebbiolo</a></li>
+                            <li><a href="#">Tempranillo</a></li>
+                            <li><a href="#">Malbec</a></li>
+                            <li><a href="#">Primitivo/Zinfandel</a></li>
+                          </ul>
+                          <ul class="flex-direction">
+                            <li class="bor"><a href="#">White</a></li>
+                            <li><a href="#">Chardonnay</a></li>
+                            <li><a href="#">Sauvignon Blanc</a></li>
+                            <li><a href="#">Riesling</a></li>
+                            <li><a href="#">Muscat/Moscato</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="flex-direction">
+                        <div class="flex">
+                          <a href="#">PRICE</a>
+                          <img src="images/btns/btn_menu_more.png" alt="메뉴 더보기">
+                        </div>
+                        <div class="dropsubmenu">
+                          <ul class="flex-direction">
+                            <li><a href="#">Under 10,000원</a></li>
+                            <li><a href="#">10,000만원 ~ 30,000원</a></li>
+                            <li><a href="#">30,0001원 ~ 50,000원</a></li>
+                            <li><a href="#">50,0001원 ~ 70,000원</a></li>
+                            <li><a href="#">70,001원 ~ 100,000원</a></li>
+                            <li><a href="#">100,001원 ~ 150,000원</a></li>
+                            <li><a href="#">150,001원 ~ 200,000원</a></li>
+                            <li><a href="#">200,001원 ~ 300,000원</a></li>
+                            <li><a href="#">300,001원 ~ 500,000원</a></li>
+                            <li><a href="#">Over 500,000원</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="flex-direction">
+                        <div class="flex">
+                          <a href="#">NON-WINE</a>
+                          <img src="images/btns/btn_menu_more.png" alt="메뉴 더보기">
+                        </div>
+                        <div class="dropsubmenu">
+                          <ul class="flex-direction">
+                            <li><a href="#">Sake</a></li>
+                            <li><a href="#">Whiskey</a></li>
+                            <li><a href="#">Brandy</a></li>
+                            <li><a href="#">Rum</a></li>
+                            <li><a href="#">Gin</a></li>
+                            <li><a href="#">Vodka</a></li>
+                            <li><a href="#">Beer</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="flex-direction">
+                        <div class="flex">
+                          <a href="#">WINE ACCESSORY</a>
+                          <img src="images/btns/btn_menu_more.png" alt="메뉴 더보기">
+                        </div>
+                        <div class="dropsubmenu">
+                          <ul class="flex-direction">
+                            <li><a href="#">Wine Box & Bag</a></li>
+                            <li><a href="#">Wine Screw</a></li>
+                            <li><a href="#">Wine Glass</a></li>
+                            <li><a href="#">Others</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="flex-direction">
+                        <div class="flex">
+                          <a href="#">Own Selection</a>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="togglemenuoption flex">
+                    <a href="#" class="togglemenuuser"><img src="images/btns/btn_menu_user.png" alt="내정보" /></a>
+                    <a href="#" class="togglemenubasket"><img src="images/btns/btn_menu_basket.png" alt="장바구니" /><div class="basketcount flex"><span>3</span></div></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="contents_wrap">
+            <div class="main__section container-fluid">
+                <img src="images/logo/main_logo_integrated.png" alt="" class="main__section__logo">
+                <div class="main__notice">
+                    <strong>와인 경매 수익금은 세이브더칠드런에 전액 기부합니다.</strong>
+                    <p>
+                        아동과 지역 사회를 위해 올바르게 효율적으로 사용하고,<br>
+                        정직한 재정 운영을 통해 기부금 사용 내역을 투명하게 공개하며 아동과 경매 참여자에게 책임과 의무를 다하고 있습니다.
+                    </p>
+                </div>
+                <div class="main__result flex">
+                    <div>
+                        <span>
+                            un경제사회이사회로부터<br>
+                            포괄적 협의 지위 획득
+                        </span>                    
+                    </div>
+                    <div>
+                        <span>
+                            글로벌 4대 회계법인을 통한<br>
+                            철저한 내외부 감사 실시
+                        </span>
+                    </div>
+                    <div>
+                        <span>
+                            NGO의 투명성과 경영 성과를 평가받아<br>
+                            삼일투명경영대상 수상
+                        </span>
+                    </div>
+                </div>
+                <div class="main__donation flex">
+                    <div>
+                        <h6>누적 기부금</h6>
+                        <span><span>920,305</span>원</span>
+                    </div>
+                    <div>
+                        <h6>지난달 기부금</h6>
+                        <span><span>98,765</span>원</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper__section">
+                <div class="product">
+                    <div class="flex-direction title">
+                        <small>오직 나만의 와인</small>
+                        <span>Wine Auction</span>
+                    </div>
+                    <div class="container">
+                        <div class="auction">
+                            <div class="auctiontime">
+                                <div class="flex">
+                                    <span>경매</span>
+                                    <div class="flex time">
+                                        <div class="flex"><span>12</span></div>
+                                        <span>:</span>
+                                        <div class="flex"><span>26</span></div>
+                                        <span>:</span>
+                                        <div class="flex"><span>54</span></div>
+                                    </div>
+                                    <span>남음</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section__auction__swiper">
+                    <div class="swiper auction__swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="product__items">
+                                    <div class="product__thumbnail flex">
+                                        <img src="images/product/product_1.png" alt="">
+                                    </div>
+                                    <div class="product__items__info flex-direction">
+                                        <small>2020</small>
+                                        <span>
+                                            KALLESKE<br>
+                                            Greenock Shiraz
+                                        </span>
+                                        <div class="product__price flex">
+                                            <img src="images/text/text_high.png" alt="최고 입찰가">
+                                            <span>460,000원</span>
+                                        </div>
+                                        <div class="btn__prev__more flex">
+                                            <img src="images/btns/btn_next_more.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product__items crownpd">
+                                    <div class="product__thumbnail flex">
+                                        <img src="images/product/product_2.png" alt="">
+                                    </div>
+                                    <div class="product__items__info flex-direction">
+                                        <small>2020</small>
+                                        <span>
+                                            KALLESKE<br>
+                                            Greenock Shiraz
+                                        </span>
+                                        <div class="product__price flex">
+                                            <img src="images/text/text_high.png" alt="최고 입찰가">
+                                            <span>460,000원</span>
+                                        </div>
+                                        <div class="btn__prev__more flex">
+                                            <img src="images/btns/btn_next_more.png" alt="">
+                                        </div>
+                                    </div>
+                                    <img src="images/icons/ic_crown.png" alt="" class="crown">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product__items crownpd">
+                                    <div class="product__thumbnail flex">
+                                        <img src="images/product/product_3.png" alt="">
+                                    </div>
+                                    <div class="product__items__info flex-direction">
+                                        <small>2020</small>
+                                        <span>
+                                            KALLESKE<br>
+                                            Greenock Shiraz
+                                        </span>
+                                        <div class="product__price flex">
+                                            <img src="images/text/text_high.png" alt="최고 입찰가">
+                                            <span>460,000원</span>
+                                        </div>
+                                        <div class="btn__prev__more flex">
+                                            <img src="images/btns/btn_next_more.png" alt="">
+                                        </div>
+                                    </div>
+                                    <img src="images/icons/ic_crown.png" alt="" class="crown">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product__items">
+                                    <div class="product__thumbnail flex">
+                                        <img src="images/product/product_4.png" alt="">
+                                    </div>
+                                    <div class="product__items__info flex-direction">
+                                        <small>2020</small>
+                                        <span>
+                                            KALLESKE<br>
+                                            Greenock Shiraz
+                                        </span>
+                                        <div class="product__price flex">
+                                            <img src="images/text/text_high.png" alt="최고 입찰가">
+                                            <span>460,000원</span>
+                                        </div>
+                                        <div class="btn__prev__more flex">
+                                            <img src="images/btns/btn_next_more.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product__items">
+                                    <div class="product__thumbnail flex">
+                                        <img src="images/product/product_5.png" alt="">
+                                    </div>
+                                    <div class="product__items__info flex-direction">
+                                        <small>2020</small>
+                                        <span>
+                                            KALLESKE<br>
+                                            Greenock Shiraz
+                                        </span>
+                                        <div class="product__price flex">
+                                            <img src="images/text/text_high.png" alt="최고 입찰가">
+                                            <span>460,000원</span>
+                                        </div>
+                                        <div class="btn__prev__more flex">
+                                            <img src="images/btns/btn_next_more.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="last__section container-fluid">
+                <div class="flex blog">
+                    <div class="flex-direction">
+                        <img src="images/logo/white_logo_integrated.png" alt="">
+                        <span>상세 기부 내역은 와인보우 블로그를 참고 바랍니다.</span>
+                        <div class="btn__blog flex">
+                            <span>Blog &#8594;</span>
+                        </div>
+                    </div>
+                    <div class="flex award">
+                        <div class="flex-direction">
+                            <div></div>
+                            <p>와인보우 x 세이브더칠드런 위촉 패</p>
+                        </div>
+                        <div class="flex-direction">
+                            <div></div>
+                            <p>6월 기부 증서</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="footer_wrap container-fluid">
+            <div class="flex-direction footer">
+              <div class="flex foot_top">
+                <div class="flex forms container">
+                  <div class="flex-direction">
+                    <div class="flex-direction footlogo">
+                      <img src="images/icons/ic_logo_white.png" alt="WINEBOW" class="white_logo">
+                      <div class="links flex mobile_foot_top">
+                        <a href="#"><img src="images/icons/ic_naver.png" alt="NAVER"></a>
+                        <a href="#"><img src="images/icons/ic_instagram.png" alt="INSTAGRAM"></a>
+                        <a href="#"><img src="images/icons/ic_youtube.png" alt="YOUTUBE"></a>
+                      </div>
+                    </div>
+                    <div class="flex form formle">
+                      <div class="flex-direction">
+                        <div class="flex">
+                          <h6>상호</h6>
+                          <span>와인보우 주식회사</span>
+                        </div>
+                        <div class="flex">
+                          <h6>대표자</h6>
+                          <span>최한열</span>
+                        </div>
+                        <div class="flex baseline">
+                          <h6>주소</h6>
+                          <span>서울시 마포구 와우산로 29 라길 16 <br>(서교동 333-11)</span>
+                        </div>
+                      </div>
+                      <div class="flex-direction">
+                        <div class="flex">
+                          <h6>Contact</h6>
+                          <span>02) 6349-9463</span>
+                        </div>
+                        <div class="flex">
+                          <h6>FAX</h6>
+                          <span>02) 6944-9462</span>
+                        </div>
+                        <div class="flex">
+                          <h6>Email</h6>
+                          <span>vinamour@winebow.co.kr</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex form formri">
+                    <div class="flex-direction">
+                      <h6>Winebow</h6>
+                      <ul class="flex-direction">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">User guide</a></li>
+                        <li><a href="#">Location</a></li>
+                      </ul>
+                    </div>
+                    <div class="flex-direction">
+                      <h6>Wine Talk</h6>
+                      <ul class="flex-direction">
+                        <li><a href="#">Wine Information</a></li>
+                        <li><a href="#">Wine Column</a></li>
+                        <li><a href="#">Wine Tasting Note</a></li>
+                      </ul>
+                    </div>
+                    <div class="flex-direction">
+                      <h6>Community</h6>
+                      <ul class="flex-direction">
+                        <li><a href="#">와인보우 일정표</a></li>
+                        <li><a href="#">테이스팅룸 예약</a></li>
+                        <li><a href="#">시음회 및 교육 후기</a></li>
+                        <li><a href="#">와인보우 제휴점</a></li>
+                      </ul>
+                    </div>
+                    <div class="flex-direction">
+                      <h6>Wine & Business</h6>
+                      <ul class="flex-direction">
+                        <li><a href="#">와인 비즈니스 창업 컨설팅</a></li>
+                        <li><a href="#">와인보우 스쿨</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="foot_bot">
+                <div class="container flex">
+                  <div class="left_ flex">
+                    <div class="flex link_">
+                      <a href="#">개인정보 취급 방침</a>
+                      <a href="#">이용약관</a>
+                    </div>
+                    <div class="flex num">
+                      <span>사업자등록번호 l 639-88-01203</span>
+                      <span>통신판매신고번호 l 제2019-서울마포구-1324호</span>
+                    </div>
+                  </div>
+                  <div class="flex link">
+                    <span>ⓒ2022.winebow. All rights reserved.</span>
+                    <div class="links flex">
+                      <a href="#"><img src="images/icons/ic_naver.png" alt="NAVER"></a>
+                      <a href="#"><img src="images/icons/ic_instagram.png" alt="INSTAGRAM"></a>
+                      <a href="#"><img src="images/icons/ic_youtube.png" alt="YOUTUBE"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>          
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".auction__swiper", {
+            slidesPerView: 1.2,
+            spaceBetween: 44,
+            breakpoints: {
+                405: {
+                    slidesPerView: 1.4,
+                    spaceBetween: 44,
+                },
+                501: {
+                    slidesPerView: 1.7,
+                    spaceBetween: 44,
+                },
+                576: {
+                    slidesPerView: 1.9,
+                    spaceBetween: 44,
+                },
+                720: {
+                    slidesPerView: 2.2,
+                    spaceBetween: 44,
+                },
+                768: {
+                    slidesPerView: 2.4,
+                    spaceBetween: 44,
+                },
+                820: {
+                    slidesPerView: 2.6,
+                    spaceBetween: 44,
+                },
+                960: {
+                    slidesPerView: 2.9,
+                    spaceBetween: 44,
+                },
+                1024: {
+                    slidesPerView: 3.1,
+                    spaceBetween: 44,
+                },
+                1200: {
+                    slidesPerView: 3.7,
+                    spaceBetween: 44,
+                },
+                1647: {
+                    slidesPerView: 5,
+                    spaceBetween: 44,
+                }
+            },
+    });
+    </script>
 </body>
 </html>
