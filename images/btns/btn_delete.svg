@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="Group-5-Copy-6">
+            <g transform="translate(2.000000, 3.000000)">
+                <rect id="Rectangle" stroke="#979797" stroke-width="1.19999993" fill="#D8D8D8" transform="translate(5.400000, 4.800000) rotate(-315.000000) translate(-5.400000, -4.800000) " x="5.39999968" y="-0.599999964" width="1" height="10.7999994"></rect>
+                <rect id="Rectangle-Copy-28" stroke="#979797" stroke-width="1.19999993" fill="#D8D8D8" transform="translate(5.400000, 4.800000) scale(-1, 1) rotate(-315.000000) translate(-5.400000, -4.800000) " x="5.39999968" y="-0.599999964" width="1" height="10.7999994"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
