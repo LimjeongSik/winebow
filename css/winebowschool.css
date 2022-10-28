@@ -1,0 +1,167 @@
+.main__section {
+  position: relative;
+  width: 100%;
+  min-height: 15.5rem;
+  background: url(../images/banner/banner_winebowschool.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.main__section::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+.section__title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  gap: 1rem;
+  grid-gap: 1rem;
+  text-align: center;
+}
+.section__title h2 {
+  font-size: 1.95rem;
+  letter-spacing: 0;
+  color: var(--base-white);
+  font-family: "newyork";
+  font-weight: 100;
+  line-height: 1;
+}
+.section__title span {
+  font-size: 0.75rem;
+  letter-spacing: -0.5px;
+  color: var(--base-white);
+  font-weight: var(--regular);
+  font-family: "Pretendard Variable";
+}
+.sub__section .container {
+  width: 53.5rem;
+  max-width: 53.5rem;
+}
+.ro__flex,
+.ro__flex > .flex {
+  gap: 1.5rem;
+  grid-gap: 1.5rem;
+}
+.ro__flex > .flex {
+  align-items: flex-start;
+}
+.sub__section {
+  background: #faf9f8;
+  padding: 8% 0 9%;
+}
+.full__1 img,
+.full__2 img {
+  width: 100%;
+  max-width: 25rem;
+  height: auto;
+}
+.school__notice {
+  width: 100%;
+  max-width: 25rem;
+
+  box-sizing: border-box;
+  padding: 1.9rem 1.5rem;
+  background-color: var(--base-white);
+}
+.school__notice.top {
+  min-height: 1021px;
+}
+.school__notice.bot {
+  min-height: 820px;
+}
+.school__notice > h6 {
+  font-size: 0.9rem;
+  color: #888;
+  font-family: "Pretendard Variable";
+  font-weight: var(--bold);
+}
+.school__notice.top .flex-direction .notice {
+  padding-top: 1rem;
+  margin-top: 0.85rem;
+  border-top: 1px solid #f4f4f4;
+}
+.school__notice.top .flex-direction .notice:last-child {
+  border: none;
+  margin-top: 0;
+}
+.school__notice.bot .flex-direction .notice:nth-child(1) {
+  padding-top: 1rem;
+  margin-top: 0.85rem;
+  border-top: 1px solid #f4f4f4;
+}
+.school__notice .flex-direction .notice img {
+  width: 100%;
+}
+.school__notice .flex-direction .notice span {
+  display: inline-block;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  color: #a2895b;
+  font-family: "Pretendard Variable";
+  font-weight: var(--semibold);
+  padding-top: 0.7rem;
+}
+.school__notice .flex-direction .notice p {
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  color: #888;
+  font-family: "Pretendard Variable";
+  font-weight: var(--regular);
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid #f4f4f4;
+}
+.end {
+  text-align: center;
+  margin-top: 18%;
+}
+.sub__logo {
+  width: 100%;
+  max-width: 5rem;
+  height: auto;
+}
+.school__notice.bot .end {
+  margin-top: 10%;
+}
+.report {
+  background: #f0edea;
+}
+.report img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1201px) {
+  .container-fluid,
+  .container,
+  .sub__section .container {
+    max-width: 100%;
+    min-width: inherit;
+    width: 100%;
+  }
+}
+.ro__flex {
+  gap: 1.5rem;
+  grid-gap: 1.5rem;
+}
+@media screen and (max-width: 1030px) {
+  .school__notice.top,
+  .school__notice.bot {
+    min-height: auto;
+  }
+  .ro__flex > .flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    grid-gap: 0;
+  }
+  .full__1 img,
+  .full__2 img {
+    display: none;
+  }
+}
